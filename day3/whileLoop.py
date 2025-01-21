@@ -14,3 +14,15 @@ while j>=0:
     print(j)
     j=j-1
 print("Descending order have printed")
+
+
+
+def count_digits(number):
+    count = 0
+    while number:
+        count += 1
+        number //= 10  # Integer division by 10
+    return count
+
+# Example usage
+print(count_digits(12345))  # Output: 5
