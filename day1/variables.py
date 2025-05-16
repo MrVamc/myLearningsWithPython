@@ -17,3 +17,15 @@ print(x,y)
 print('Swapping numbers')
 x,y = y,x
 print(x,y)
+
+########### Example 5 ##################
+name = 'vinay'
+greetings = 'Good Morning'
+print(f"Good morning {name}")
+# f"string" is used to change the print statement dynamically.
+
+########### Example 6 ##################
+name = 'vamshi'
+greet = "good afternoon, {}"
+withname = greet.format(name)
+print(withname)
